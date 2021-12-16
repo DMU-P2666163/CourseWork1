@@ -1,0 +1,97 @@
+h1 {
+text-align: center;
+background-color: grey;
+color:White;
+font-size: 80px;
+font-weight: bolder;
+outline-style: solid; color: white;
+position: static;
+width: 100%;
+}
+/*i Chose those colours because they fit the astetic of the film. I chose those sizes because they make the website look clean and smooth */
+
+body {
+  background-color: lightblue;
+  font-family: monospace;
+}
+/*I chose this colour because it matches the colour scheme of the film */
+
+.PageSelect{
+  display: flex;
+  justify-content: space-around:
+}
+/* I chose this page select because it makes the website easy to navigate*/
+
+nav a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  flex-grow: 2;
+  text-align: center;
+  background-color: grey;
+  transition: 0.1s;
+  font-weight: bolder;
+  font-size: 50px;
+  outline-style: solid; color: white;
+}
+/*This makes the page select more user friendly by making it look nice and easy to use */
+
+nav a:hover{
+  background: white;
+  color: grey;
+  outline-color: grey;
+}
+/* chose these colours when hovering over the selection because it clearly shows what you are hovering over */
+
+.Filmplot{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+/*I chose this marging size because it makes it fit nicely in the page */
+
+footer{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  outline-style: solid; color: white;
+}
+/*I chose these colours because it matches the website and makes the website flow nicely */
+
+footer a{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+}
+/*I chose these colours because it matches the website and makes the website flow nicely */
+
+img{
+border-radius: 15px;
+width: 280px;
+height: 350px;
+float: left;
+margin: 15px;
+}
+/*I chose these sizes because it makes them fit nicely on the page */
+
+.video{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+/*I chose these sizes because it fits well with the design of the website */
